@@ -2,10 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>VulcanDev</Authors>
+    <Company />
+    <Product />
+    <Description>A C# API Wrapper for NubeFact's services which lets you: generate, consult, and cancel invoices in a simple and fast way.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIcon>NubeFactDotNetIcon.jpg</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/VulcanShot/NubeFactDotNet</RepositoryUrl>
+    <PackageTags>NubeFact, Sunat</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\assets\NubeFactDotNetIcon.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
