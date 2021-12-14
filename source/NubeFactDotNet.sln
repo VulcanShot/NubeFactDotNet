@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NubeFactDotNet", "NubeFactDotNet.csproj", "{FFC82FB7-AF9D-442C-A1B7-0F0C84A10647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFC82FB7-AF9D-442C-A1B7-0F0C84A10647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC82FB7-AF9D-442C-A1B7-0F0C84A10647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC82FB7-AF9D-442C-A1B7-0F0C84A10647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC82FB7-AF9D-442C-A1B7-0F0C84A10647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5161D74-42E8-445E-BA3F-5F6A83A6972C}
+	EndGlobalSection
+EndGlobal
