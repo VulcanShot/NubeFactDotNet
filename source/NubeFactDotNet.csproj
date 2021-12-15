@@ -5,7 +5,7 @@
     <Authors>VulcanDev</Authors>
     <Company />
     <Product />
-    <Description>A C# API Wrapper for NubeFact's services which lets you: generate, consult, and cancel invoices in a simple and fast way.</Description>
+    <Description>Un API Wrapper en C# para los servicios de NubeFact que permite: generar, consultar y cancelar boletas/facturas de forma simple y rápida.</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl></PackageProjectUrl>
     <PackageIcon>NubeFactDotNetIcon.jpg</PackageIcon>
