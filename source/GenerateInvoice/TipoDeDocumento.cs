@@ -2,7 +2,7 @@
 {
     public static class TipoDeDocumento
     {
-        public static string Ningun { get; } = "";
+        public static string Ninguno { get; } = "";
         public static string NoDomiciliadoSinRUC { get; } = "0";
         public static string DNI { get; } = "1";
         public static string CarnetDeExtranjeria { get; } = "4";
