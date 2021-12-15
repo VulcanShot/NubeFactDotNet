@@ -11,13 +11,7 @@ namespace NubeFactDotNet
         public SunatTransaction SunatTransaction { get; set; }
 
         /// <summary>
-        /// Whitespace = VARIOS - VENTAS MENORES A S/.700.00 Y OTROS<br/>
-        /// 0 = NO DOMICILIADO, SIN RUC(EXPORTACIÓN)<br/>
-        /// 1 = DNI - DOC.NACIONAL DE IDENTIDAD<br/>
-        /// 4 = CARNET DE EXTRANJERÍA<br/>
-        /// 6 = RUC - REGISTRO ÚNICO DE CONTRIBUYENTE<br/>
-        /// 7 = PASAPORTE<br/>
-        /// A = CÉDULA DIPLOMÁTICA DE IDENTIDAD<br/>
+        /// You can use the <see cref="TipoDeDocumento"></see> class./>
         /// </summary>
         [JsonProperty("cliente_tipo_de_documento")]
         public string ClienteTipoDeDocumento { get; set; }
