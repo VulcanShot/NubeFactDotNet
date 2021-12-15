@@ -5,7 +5,7 @@ Un API Wrapper en C# para los servicios de NubeFact que permite: generar, consul
     Install-Package NubeFactDotNet
 
 ## Documentación
-Para empezar a utilizar esta librería, simplemente inicializa un `NubeFactProcessor` como se aprecia a continuación:<br>
+Para empezar a utilizar esta librería, simplemente inicializa un `NubeFactClient` como se aprecia a continuación:<br>
 ```cs
 using NubeFactDotNet;
 NubeFactClient client = new("tu-url-va-aqui" ,"tu-token-va-aqui");
