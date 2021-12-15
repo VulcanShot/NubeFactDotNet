@@ -2,7 +2,7 @@
 Un API Wrapper en C# para los servicios de NubeFact que permite: generar, consultar y cancelar boletas/facturas de forma simple y rápida.
 
 ## Instalación
-    Install-Package NubeFactDotNet -Version 1.0.0
+    Install-Package NubeFactDotNet
 
 ## Documentación
 Para empezar a utilizar esta librería, simplemente inicializa un `NubeFactProcessor` como se aprecia a continuación:<br>
