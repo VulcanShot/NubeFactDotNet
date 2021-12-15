@@ -8,15 +8,15 @@ using Newtonsoft.Json;
 
 namespace NubeFactDotNet
 {
-    public class NubeFactProcessor
+    public class NubeFactClient
     {
-        public NubeFactProcessor(Uri uri, string token)
+        public NubeFactClient(Uri uri, string token)
         {
             this.Uri = uri;
             this.Token = token;
         }
 
-        public NubeFactProcessor(string uri, string token)
+        public NubeFactClient(string uri, string token)
         {
             this.Uri = new UriBuilder(uri).Uri;
             this.Token = token;
